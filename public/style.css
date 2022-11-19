@@ -1,9 +1,73 @@
-body {
-    background-color: #303030;
-}
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #972525;
+    justify-content: center;
+    align-items: center;
+}
+
+header .brand {
+    font-family: 'Monoton', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .search {
+    display: flex;
+    width: 390px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #f3caca;
+    margin-top: 18px;
+}
+
+main .search input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fd6464;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    margin: 0 20px;
+}
+
+main .search .icon {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 2rem;
+    border-left: 1px solid black;
+    color: #972525;
+}
+
+main .search .icon:hover {
+    color: #d83d3d;
+}
+
+main .search .icon:active {
+    color: #c90707;
 }
