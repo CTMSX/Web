@@ -9,14 +9,19 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="brand">CTMS</div>
-    </header>
-    <main>
+    <nav class="navbar">
+        <div class="navbar__brand">CTMS</div>
+    </nav>
+    <header class="header">
         <div class="search">
-            <input type="text" placeholder="Wyszukaj swój sens"/>
-            <i class="icon fa-solid fa-magnifying-glass"></i>
+            <input class="search__input" type="text" placeholder="Wyszukaj swój sens"/>
+            <i class="search__icon fa-solid fa-magnifying-glass"></i>
         </div>
-    </main>
+    </header>
+    <div class="wrapper main-cards">
+        <% for(let i = 0; i < 20; i++) { %>
+            <div class="el-<%=i%>" style="background-color: red;"><%=i%></div>
+        <% } %>
+    </div>
 </body>
 </html>
