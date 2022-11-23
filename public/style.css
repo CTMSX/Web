@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto&display=swap');
 
+body{
+    background-image: url('media/images/background.webp');
+}
+
 * {
     margin: 0;
     padding: 0;
