@@ -18,10 +18,25 @@
             <i class="search__icon fa-solid fa-magnifying-glass"></i>
         </div>
     </header>
+
+        
+
     <div class="wrapper main-cards">
         <% for(let i = 0; i < 20; i++) { %>
-            <div class="el-<%=i%>" style="background-color: red; border-radius: 15px;"><%=i%></div>
+            <div class="el-<%=i%>" style="width: 200px; display:flex; flex-direction: column; justify-content: space-between; background-color: #972525;color: #EFEFEF; border-radius: 15px; margin-top: 18px; padding: 15px;"><%=i%>
+                <div class="control-cards">
+                    <a class="username">@username<%=i%></a>
+                    <div class="buttons">
+                        <button class="button button--tak">Tak</button>
+                        <button class="button button--nie">Nie</button>
+                    </div>
+                </div>
+            </div>
         <% } %>
+        
+
+
     </div>
 </body>
 </html>
+
