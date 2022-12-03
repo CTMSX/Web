@@ -11,6 +11,8 @@ body{
     user-select: none;
 }
 
+
+
 .navbar {
     display: flex;
     width: 100%;
@@ -80,6 +82,7 @@ body{
     display: flex;
     justify-content: center;
     width: 80%;
+    min-height: 100vh;
     margin-left: 50%;
     margin-top: 18px;
     transform: translate(-50%);
@@ -148,3 +151,19 @@ body{
     background-color: #296216;
 
 }*/
+
+
+
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color:#972525;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
