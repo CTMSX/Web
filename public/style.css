@@ -29,7 +29,6 @@ body{
 }
 
 .header {
-    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -43,7 +42,7 @@ body{
     align-items: center;
     border-radius: 15px;
     background-color: #f3caca;
-    margin-top: 36px;
+    margin-top: 18px;
 }
 
 .search__input {
@@ -91,11 +90,9 @@ body{
 
 .main-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-/*    grid-auto-rows: 100px;*/
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 100px;
     gap: 20px;
-    position: relative;
-
 }
 
 
@@ -169,5 +166,4 @@ body{
     align-items: center;
     padding: 15px;
     text-align: center;
-    margin-top: 36px;
 }
